@@ -1,0 +1,700 @@
+.container2{
+    width: 87.5%;
+    /* height: 50.895%; */
+    margin-top: 1.667%;
+    font-size: 16px;
+    display: flex;
+}
+
+.page-content{
+  flex: 2;
+  width: 66.829%;
+  height: auto;
+}
+
+/* 
+.feedback-container{
+  flex: .94889;
+  width: 31.8%;
+  margin-left: 1.464%;
+  font-family: "Poppins", sans-serif;
+}
+.feedback{
+  margin: 0 18px;
+}
+.empty{
+  margin-bottom: 4.81%;
+  height: 3.519vh; 
+}
+.holder{
+  border-radius: 10px;
+  background-color: white;
+  height: 76.61%; 
+}
+
+.holder h6{
+  height: 3.705vh;
+    color: #4C4C66;
+    font-weight: 500;
+    font-size: 1.29vh;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    margin: 0 1.6667vh;
+    border-bottom: 1px solid #4C4C661A;
+}
+.fb-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.963vh;
+  margin-top: 1.2963vh;
+  margin-bottom: .8333vh;
+}
+.point{
+  font-size: 1.67vh;
+}
+.clear{
+  color:#025AB2;
+  cursor:pointer;
+  font-size: 1.3vh;
+}
+
+.message{
+  height: 30.834vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDFDFD;
+  margin: 3.079% 3.464%;
+  border-radius: 8px;
+  border: 1px solid #4C4C661A;
+}
+.centered-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 1.2963vh;
+  font-weight: 400;
+  letter-spacing: 0.15;
+} */
+
+.details{
+  height: 15.85vh; 
+
+  border-radius: 8px;
+}
+.feedback-status{
+  height: 13.89vh; 
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #4C4C661A;
+}
+.resubmit-link{
+  color: #025AB2;
+  
+} 
+.qn-box{
+  margin: 1.1111vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: stretch;
+  background-color: #FAFAFA;
+  border: 1px solid #4C4C661A;
+  /* height: 100%; */
+}
+
+/* .qn-box > * {
+  flex: 1;
+  margin-bottom: 10px; 
+} */
+.qn-box p{
+  /* font-size: 1.3vh; */
+  margin-top: 10px;
+  font-weight: 500;
+}
+.radio-options label{
+  /* font-size: 1.3vh; */
+  display: block; 
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+/* .timestamp-container, .status-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.timestamp-label, .status-label{
+  font-weight: 500;
+  color: #687182;
+  font-size: 1.48148vh;
+  line-height: 2.22222vh;
+}
+
+.timestamp-value{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #3E3E3E;
+  font-size: 1.48148vh;
+}
+.timestamp-container,
+.status-container {
+  margin-top: 2vh; 
+  
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+.tabletop {
+  /* height: 3.519vh;  */
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.activity{
+  height: 63.16%;
+  color: #191728;
+  font-size: 1.48148vh;  
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin: 0;
+  /* margin-top: 7px;
+  margin-bottom: 7px; */
+}
+.btn-download{
+  background-color: #025AB2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25vh;
+  font-weight: 400;
+  color: #FFFFFF;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: .5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .427% .854%;
+}
+
+.btn-download img{
+  height: 1.667vh;
+  width: auto;
+  margin-left: .93vh;
+}
+.t-table {
+  margin-top: 1.2963vh;
+  /* height: 41.57vh;  */
+  height: auto;
+}
+
+.datatable{
+  background-color: #ffffff;
+  height: 27.871vh;
+  width: 100%; 
+  border-radius: 4px;
+  margin-bottom: 1.1111vh;
+  box-shadow: 0px 1px 3px rgba(96, 108, 128, 0.05);
+  border: 1px solid #D9D9D9;
+}
+
+table {
+  border-radius: 10px;
+  border-spacing: 0 .35vh;
+  width: 100%;
+  background-color: #ffffff; 
+  overflow: hidden; 
+  table-layout: fixed;
+}
+.table-head th {
+  text-align: left;
+  position: relative;
+  color: #4C4C66;
+  font-weight: 500;
+  font-size: 1.29vh;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  word-wrap: break-word;
+  border-bottom: 1px solid #D9D9D9;
+}
+thead {
+  border-radius: 10px;
+  height: 3.705vh; 
+}
+tbody {
+  border-radius: 10px; 
+  color: #23272E;
+  font-size: 1.29vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+tbody tr{
+  height: 4.445vh;
+}
+tbody td:nth-child(3) {
+  color: #687182; 
+}
+/* CSS code to give even-numbered rows a grey background color */
+tbody tr:nth-child(even) {
+  background-color: #FBFBFB; /* You can use your preferred shade of grey */
+}
+
+/* 
+.table-head th span::after {
+  content: " |";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  color: #4C4C6666;
+  font-weight: 500;
+}
+.table-head th:last-child span::after{
+  content: none;
+} */
+
+.table-head th:first-child,
+tbody td:first-child {
+  padding-left: 26px;
+  width: 10%;
+}
+
+.table-head th:not(:first-child),
+tbody td:not(:first-child) {
+  text-align: center;
+  width: 22.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pagination {
+  height: 4.167vh;
+  /* margin-top: 1.1111vh;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination button {
+  background-color: #FAFAFA;
+  border: none;
+  color: black;
+  width: 2.963vh; /* Set width and height to make it a circle */
+  height: 2.963vh;
+  /* padding: .741vh 1.482vh;  */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4815vh; 
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 50%; 
+}
+
+.pagination button:first-child,
+.pagination button:last-child {
+  width: 10%; 
+  font-size: 1.2963vh; 
+}
+
+.pagination button.active {
+  background-color: #0F60FF;
+  color: white;
+  cursor: default;
+}
+
+.pagination button[disabled] {
+  cursor: default;
+}
+
+.sidebar-container {
+  position: relative;
+  border-radius: 10px 0 0 0;
+}
+
+.sidebar-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(185, 185, 185, 0.5); 
+  z-index: 1;
+}
+
+.sidebar {
+  z-index: 2;
+  width: 27.3%; 
+  height: 93.34%; 
+  background-color: white; 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 1.5vh 0 0 1.5vh;
+}
+
+.insights{
+  /* padding: 0 20px; */
+  border-top: 1px solid #E0E0E0;
+}
+
+.exit{
+  width: 5.35%;
+  height: 5.35%;
+  margin: 3.06% 0% 3.06% 4.39%;
+  padding: 0;
+  border: none;
+  background-color: white;
+}
+
+.insights span, .fd-title{
+  font-size: 1.66667vh;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.32;
+  color: #333333;
+  /* margin: 5.153% 0% 5.153% 3.816%; */
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+
+/* .title:after, .fd-title:after{ 
+  content: ""; 
+  flex: 1; 
+  border-bottom: 1px solid #E0E0E0; 
+  margin: auto; 
+}  */
+
+.fd-title{
+  margin-bottom: 2.2222vh;
+  width: 100%;
+  display: flex; 
+  flex-direction: row; 
+}
+
+
+.qbox-qn{
+  font-size: 1.3vh;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #616160;
+  line-height: 1.852vh;
+}
+.title{
+  /* width: 100%; */
+  margin-top: 2.2222vh;
+  margin-left: 1.8519vh;
+  margin-bottom: 2.963vh;
+  width: 100%;
+  display: flex; 
+  flex-direction: row; 
+}
+
+.pointvalue{
+  margin: 0 1.8519vh;
+  margin-top: 2.963vh;
+}
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.2222vh;
+  height: 2.2225vh;
+}
+.text-container:last-child {
+  margin-bottom: 32px; /* Apply a 32px margin-bottom to the last text-container */
+}
+.grey-text{
+  color: #687182;
+  font-size: 1.4815vh;
+  font-weight: 500;
+}
+.black-text{
+  color: #3E3E3E;
+  font-size: 1.4815vh;
+  font-weight: 500;
+}
+.line {
+  flex-grow: 1;
+  height: 0.1px;
+  background-color: #4C4C661A;
+  margin-left: 10px; /* Adjust the margin as needed */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.piegraph{
+  height: 24.075vh;
+  width: 24.075vh;
+}
+
+
+/* .title:after{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+} */
+/* 
+.title{
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+.title:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+} */
+
+/* .title:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #000;
+  margin: auto;
+} */
+
+.quickspot{
+  border-radius: 8px;
+  background: #fafbfc;
+  border: 1px solid #4C4C661A;
+  /* margin: 24px 17px; */
+}
+.inner-spot{
+  margin: 17px 24px;
+}
+.topic-spot{
+  font-size: 1.3vh;
+ font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+ color: #616160;
+ line-height: 1.852vh;
+ margin: 0;
+ margin-bottom: 1.852vh;
+}
+
+.pn-dropdown {
+  position: relative;
+  background-color: white;
+  border-radius: .5vh;
+  padding: 1.1111vh 1.2037vh ;
+  max-width: 45%;
+}
+  
+.pn-header {
+  height: 1.853vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pn-dropdown span{
+  font-size: 1.3vh;
+ font-weight: 400;
+ font-family: 'Poppins', sans-serif;
+ color: #242533;
+ line-height: 1.852vh;
+ text-transform: none;
+}
+
+.pn-header img{
+  height: 1.84947vh;
+  width: auto;
+  margin-left: 1.1111vh;
+}
+
+
+/* Style the unselected radio button */
+input[type="radio"] {
+  appearance: none;
+  width: 1.852vh;
+  height: 1.852vh;
+  border: 1px solid #9C9C9C; /* Color for unselected state */
+  border-radius: 50%;
+  outline: none;
+  position: relative;
+  margin-right: 2.22222vh;
+}
+
+/* Style the inner circle of the selected radio button */
+input[type="radio"]:checked::before {
+  content: "";
+  width: 1.11vh;
+  height: 1.11vh;
+  background-color: #025AB2; /* Color for selected state */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Apply the same background color to the outer circle of the selected radio button */
+input[type="radio"]:checked {
+  border-color: #025AB2; /* Color for selected state */
+}
+label{
+  font-size: 1.4815vh;
+ font-weight: 500;
+ font-family: 'Poppins', sans-serif;
+ color: Black;
+ line-height: 1.95vh;
+ display: flex;
+ align-items: center;
+ margin-top: 2.22222vh;
+}
+
+.submit-btn{
+  width: 100%;
+  color: white;
+  background-color: #025AB2;
+  border: none;
+  border-radius: 5px;
+  height: 3.89vh;
+  margin-top: 2.22222vh;
+  font-size: 1.4815vh;
+  font-weight: 500;
+  line-height: 1.95vh;
+}
+
+select {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+  
+/* Styling for the options */
+option {
+  background-color: #f0f0f0;
+  color: #333;
+}
+  
+/* Remove default styles on select dropdown */
+select::-ms-expand {
+  display: none;
+}
+select:focus {
+  outline: none;
+}
+
+/* Styling for the options container */
+.pn-options {
+  position: absolute;
+  top: calc(100% + 25%);
+  left: 0;
+  width: 94.5%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: .463vh;
+}
+  
+/* Styling for the options list */
+.pnop-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.pnop-list li {
+  width: 94.35%;
+  height: 2.963vh;
+  padding: auto;
+  /* margin: 2px 0; */
+  cursor: pointer;
+  font-size: 1.3vh;
+  font-weight: 400;
+  color: #222222;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  text-transform: none;
+  padding: .463vh;
+}
+  
+.pnop-list li:hover {
+  border-radius: 4px;
+  background-color: #E6EDF4;
+  color: #025AB2;
+}
+
+.resubmit-link{
+  width: 100%;
+  color: white;
+  background-color: #025AB2;
+  border: none;
+  border-radius: 5px;
+  height: 3.89vh;
+  margin-top: 2.22222vh;
+  font-size: 1.4815vh;
+  font-weight: 600;
+  line-height: 1.95vh;
+}
+
+.feedback-message{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 1.48148vh;
+  line-height: 1.95vh;
+  display: flex;
+  justify-content: center;
+}
+
+.status-holder{
+  width: 100%;
+  margin: 24px;
+  }

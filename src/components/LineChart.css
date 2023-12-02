@@ -1,0 +1,369 @@
+.container1{
+  width: 87.5%;
+  /* height: 40.477%; */
+  margin-top: 1.875%;
+}
+
+.DataCalendar{
+  height: 4.075vh;
+  border-radius: 8px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}  
+
+  
+.top-bar-left{
+  /* height: 91.67%; */
+  height: 100%;
+  word-wrap: break-word;
+}
+
+.custom-dropdown {
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .5vh;
+  padding: 1.1111vh 1.2963vh ;
+}
+  
+.dropdown-header {
+  height: 1.853vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+  
+.dropdown-text {
+  color: #242533;
+  font-size: 1.2963vh;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  line-height: 1.48vh;
+}
+
+.dropdown-header img{
+  height: 1.84947vh;
+  width: auto;
+  margin-left: 1.1111vh;
+}
+  /* Styling for the select dropdown */
+select {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+  
+/* Styling for the options */
+option {
+  background-color: #f0f0f0;
+  color: #333;
+}
+  
+/* Remove default styles on select dropdown */
+select::-ms-expand {
+  display: none;
+}
+select:focus {
+  outline: none;
+}
+
+/* Styling for the options container */
+.options-container {
+  position: absolute;
+  top: calc(100% + 25%);
+  left: 0;
+  width: 94.5%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: .463vh;
+}
+  
+/* Styling for the options list */
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.options-list li {
+  width: 94.35%;
+  height: 2.963vh;
+  padding: auto;
+  /* margin: 2px 0; */
+  cursor: pointer;
+  font-size: 1.1111vh;
+  font-weight: 400;
+  color: #222222;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  text-transform: none;
+  padding: .463vh;
+}
+  
+.options-list li:hover {
+  border-radius: 4px;
+  background-color: #E6EDF4;
+  color: #025AB2;
+}
+
+.top-bar{
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius:8px
+}
+
+.time-interval{
+  height: 100%;
+  border-radius: .5vh;
+  margin-left: 1.0185vh;
+  padding: 1.115vh 1.3vh;
+  background-color: #ffffff;
+  border-color: #E6ECF1;
+  border: none;
+}
+.custom-dropdown-tm {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.dropdown-header-tm {
+  height: 1.853vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dropdown-tm-text {
+  color: #242533;
+  font-size: 1.44vh;
+  font-family: 'Poppins';
+  font-weight: 400;
+  line-height: 100%;
+  word-wrap: break-word;
+}
+
+.dropdown-header-tm img{
+  height: 1.7vh;
+  width: auto;
+  margin-right: .371vh;
+}
+/* Styling for the options container */
+.options-container-tm {
+  position: absolute;
+  top: calc(100% + 100%);
+  left: -15%;
+  width: 17.223vh;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding: .463vh;
+}
+  
+/* Styling for the options list */
+.options-list-tm {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.options-list-tm li {
+  width: 94.5%;
+  height: 2.963vh;
+  /* margin: 2px 0; */
+  cursor: pointer;
+  font-size: 1.1111vh;
+  font-weight: 400;
+  color: #222222;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  text-transform: none; 
+  padding: .463vh;
+}
+  
+.options-list-tm li:hover {
+  border-radius: 5px;
+  background-color: #E6EDF4;
+  color: #025AB2;
+}
+
+.custom-time-schedule {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.time-schedule-header {
+  height: 1.853vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.time-schedule-text {
+  color: #242533;
+  font-size: 1.44vh;
+  font-family: 'Poppins';
+  font-weight: 400;
+  line-height: 100%;
+  word-wrap: break-word;
+}
+
+.time-schedule-header img{
+  height: 1.7vh;
+  width: auto;
+  margin-right: .371vh;
+}
+
+.time-interval{
+  background-color: #ffffff;
+  border-color: #E6ECF1;
+  border: none;
+  border-radius: .5vh;
+}
+
+.datepicker-btn{
+  color: #242533;
+  font-size: 1.44vh;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  word-wrap: break-word;
+  padding: 1.115vh 1.3vh;
+  background-color: #ffffff;
+  border-color: #E6ECF1;
+  border: none;
+  border-radius: .5vh;
+}
+
+.top-bar img{
+  height: 1.853vh;
+}
+
+.toggles{
+  background-color: #ffffff;
+  border-color: #E6ECF1;
+  border: none;
+  padding: 0;
+  width: 3.705vh;
+  height: 3.705vh;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 1.3vh;
+}
+.toggles img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Tooltip text */
+.toggles .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px 17px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Adjust this value as needed to position the tooltip */
+  left: 64%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap; 
+}
+
+/* Show the tooltip text when you mouse over the button */
+.toggles:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Tooltip arrow */
+.toggles .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px; 
+  border-width: 5px 5px 0 5px; 
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.toggles .tooltiptext.zoomin {
+  left: 67%; 
+}
+
+.toggles .tooltiptext.zoomout {
+  left: 75%; 
+}
+
+.toggles .tooltiptext.drag {
+  left: 92%; 
+}
+
+.toggles .tooltiptext.reset {
+  left: 98%; 
+}
+
+
+.chart-container{
+  border-radius: 8px;
+  background-color: #ffffff;
+  height: 41.667vh;
+  margin-top: .834%;
+  box-shadow: 0px 1px 3px rgba(96, 108, 128, 0.05);
+  border: 1px solid #D9D9D9;
+}
+
+.graph{
+  /* height: 82.335%;
+  width: 95.8%; */ 
+  height: 100%;
+  width: 100%;
+}
+
+.showdate{
+  color: #242533;
+  font-size: 1.5vh; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  display: flex;
+  align-items: center;
+}

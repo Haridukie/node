@@ -1,0 +1,19 @@
+.menu{
+    height: 6.66667%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    height: 72.22222%;
+    width: auto;
+    padding-left: 6.25%;
+}
+
+.menu span{
+    font-size: 2.41vh;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+}
